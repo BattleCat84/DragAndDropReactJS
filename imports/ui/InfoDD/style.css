@@ -1,0 +1,21 @@
+.infoDDCont{
+    margin: 30px;
+    width: 400px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 17px 26px 7px -8px rgba(0,0,0,0.62);
+}
+
+.DDCont{
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  padding-left: 10px;
+  color: #888;
+  line-height: 30px;
+}
+
+.DDCont h1{
+  margin: 0;
+  margin-bottom: 10px;
+}

@@ -5,7 +5,6 @@ import { canMoveImage, moveImage } from './Game';
 import MyImage from './MyImage';
 
 const imageTarget = {
-  //
   canDrop(props) {
     console.log("en canDrop: " + props.position);
     return canMoveImage(props.position);

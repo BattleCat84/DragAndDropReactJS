@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
-//import WeatherLocation from './WeatherLocation';
-import MyDragDropContext from './SingleTarget/MyDragDropContext';
-import { observe } from './SingleTarget/Game';
+import Chuspi from './SingleTarget/Chuspi';
 import Container from './StressTest/Container';
 
 export default class App extends Component {
-  constructor(props){
-    super(props);
-  }
 
   render(){
     return(
       <div>
-        <Container/>
-        <Container/>
-        <MyDragDropContext imagePosition={this.props.imagePosition} />
-        <MyDragDropContext imagePosition={this.props.imagePosition} />
+          <Container />
+          <Container />
+          {/* <Chuspi orden="1"/>
+          <Chuspi orden="2"/> */}
       </div>
     );
   }
+  // <Container/>
+  // <Container/>
+  // <MyDragDropContext imagePosition={this.props.imagePosition} />
+  // <MyDragDropContext imagePosition={this.props.imagePosition} />
   // <Container/>
   // { this.state.observador ?
   // <MyDragDropContext imagePosition={this.state.imagePosition} /> :

@@ -5,8 +5,6 @@ import MyDropTarget from './MyDropTarget';
 import MyImage from './MyImage';
 import Blank from './Blank';
 
-
-
 class MyDragDropContext extends Component {
   renderImage(position){
     const imagePosition = this.props.imagePosition;
@@ -33,8 +31,7 @@ class MyDragDropContext extends Component {
         borderWidth: 10,
         borderColor: 'black',
         borderStyle: 'solid'
-      }}><MyDragDropContext imagePosition={this.props.imagePosition} />
-<MyDragDropContext imagePosition={this.props.imagePosition} />
+      }}>
         <div style={{ width: '50%', height: '50%'}}>
           <MyDropTarget position="left" imagePosition={this.props.imagePosition}>
             {this.renderImage("left")}
